@@ -8,7 +8,7 @@ import os
 
 os.chdir(r'SSAFY_지원자')
 os.chdir(r'SSAFY지원자')
-print(os.getcwd())
+
 files = os.listdir()
 for file in files:
     os.rename(file,file.replace("SAMSUNG","SSAFY"))
