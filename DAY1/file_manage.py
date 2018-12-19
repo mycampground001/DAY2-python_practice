@@ -25,7 +25,7 @@ with open("new2.txt","w") as file:
 # 4. 파일 여러줄 읽기
 with open("new2.txt","r") as file:
 
-    #while 1:
+    # while 1:
     #    line = file.readline()
     #    if line == '':
     #        break
