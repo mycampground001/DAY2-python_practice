@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>{{menu}} 먹으세요</h1>
+    <img src = "{{menu_url}}">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bWx_0pARzh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% if menu == "스팸" %}
+    <h2>오늘은 굶자...스팸이 뭐냐...</h2>
+    {% else %}
+    <h2>맛점~~~~~~</h2>
+    {% endif %}
+    <hr> <!--hr은 수평선-->
+    저녁 리스트는 이거였어
+    {% for food in dinner %}
+        <p>{{food}}</p> <!--p는 일반글씨라는데-->
+        {% endfor %}
+
+</body>
+</html>

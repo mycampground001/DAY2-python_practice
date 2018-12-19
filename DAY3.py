@@ -33,15 +33,18 @@ idol = {
     }
 }
 
+# dictionary 반복문
 # for key in phonebook:
 #     print(key , end=' ')
 #     print(phonebook[key])
 
+# key,value 출력 구문
 # for a, b in phonebook.items():
 #     print(a,b)
 
 # for a in phonebook.values():
 #     print(a)
 
-for key in phonebook.keys():
-    print(key)
+# for key in phonebook.keys():
+#     print(key)
+
